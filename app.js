@@ -44,7 +44,7 @@ app.get('/', (req, res)=>{
 });
 
 app.get('/api/usuarios', (req, res)=>{
-    res.send(usuarios)
+    res.send(usuarios);
 });
 
 app.get('/api/usuarios/:id', (req, res)=>{
